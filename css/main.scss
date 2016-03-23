@@ -221,3 +221,47 @@
 .btn-common:hover{
 	background-color: #D3B342;
 }
+
+
+@media (min-width: 0px) and (max-width : 767px){
+
+	.slider-house{
+		width: 62%;
+	}
+	.slider-cycle{
+		width: 30%;
+		bottom: -64%;
+	}
+	.slider-sun{
+		top:0em;
+		right: -40%;
+		width: 36%;
+	}
+	.slider-cloud1{
+		right: 10%;
+		top: 86%;
+		width: 20%;
+	}
+	.slide-cloud2{
+		right: 58%;
+		bottom: 17%;
+		width: 31%;
+	}
+	.slide-cloud3{
+		right: 55%;
+		top: 87%;
+		width: 20%;
+	}
+	#home-slider{
+		height: 46em;
+		position: relative;
+	}
+	.circle1{
+		bottom: -3.5em;
+		height: 10%;
+	}
+	.circle2{
+		bottom: -1.5em;
+		height: 7%;
+	}
+}
